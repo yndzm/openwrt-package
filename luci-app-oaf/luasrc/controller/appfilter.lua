@@ -8,26 +8,26 @@ function index()
 	end
 	
 	local page
-	entry({"admin", "services", "appfilter"}, 
-	alias("admin", "services", "appfilter", "user_list"),
-		_("App Filter"), 20).dependent = true
+	entry({"admin", "network", "appfilter"}, 
+	alias("admin", "network", "appfilter", "base_setting"),
+		_("App Filter"), 100).dependent = true
 
-	entry({"admin", "services", "appfilter", "user_list"}, 
-		arcombine(cbi("appfilter/user_list",{hideapplybtn=true, hidesavebtn=true, hideresetbtn=true}), 
+	entry({"admin", "network", "appfilter", "base_setting"},
+        cbi("appfilter/base_setting"), _("Basic Settings"), 21).leaf=true
+
+	entry({"admin", "network", "appfilter", "user_list"},
+		arcombine(cbi("appfilter/user_list",{hideapplybtn=true, hidesavebtn=true, hideresetbtn=true}),
 		cbi("appfilter/dev_status", {hideapplybtn=true, hidesavebtn=true, hideresetbtn=true})),
-		_("User List"), 21).leaf=true
+		_("User List"), 22).leaf=true
 
-	entry({"admin", "services", "appfilter", "base_setting"}, 
-        cbi("appfilter/base_setting"), _("Basic Settings"), 22).leaf=true
-
-	entry({"admin", "services", "appfilter", "user_setting"}, 
+	entry({"admin", "network", "appfilter", "user_setting"}, 
 		cbi("appfilter/user_setting"), _("Effective User"), 23).leaf=true
 
-	entry({"admin", "services", "appfilter", "time_setting"}, 
+	entry({"admin", "network", "appfilter", "time_setting"}, 
 		cbi("appfilter/time_setting"), _("Effective Time"), 24).leaf=true
 
-	entry({"admin", "services", "appfilter", "feature"}, 
-		cbi("appfilter/feature", {hideapplybtn=true, hidesavebtn=true, hideresetbtn=true}), _("App Feature"), 25).leaf=true
+	entry({"admin", "network", "appfilter", "feature"}, 
+		cbi("appfilter/feature", {hideapplybtn=true, hidesavebtn=true, hideresetbtn=true}), _("Update feature"), 25).leaf=true
 
 	page = entry({"admin", "network", "user_status"}, call("user_status"), nil)
 	page.leaf = true
