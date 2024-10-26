@@ -5,11 +5,12 @@
 [ -z "$password" ] && write_log 14 "Configuration error! [Password] cannot be empty"
 
 #检查外部调用工具
-[ -n "$WGET_SSL" ] || write_log 13 "GNU Wget support is required to use DNSPod API. Please install first"
+WGET_SSL='wget'
+[ -n "$WGET_SSL" ] || write_log 13 "GNU Wget support is required to use dnspod API. Please install first"
 
 # 变量声明
 local __URLBASE __HOST __DOMAIN __TYPE __CMDBASE __POST __POST1 __RECIP __RECID __value __TTL
-__URLBASE="https://api.dnspod.com/"
+__URLBASE="https://dnsapi.cn/"
 
 # 从 $domain 分离主机和域名
 [ "${domain:0:2}" == "@." ] && domain="${domain/./}" # 主域名处理
