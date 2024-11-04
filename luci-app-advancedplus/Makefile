@@ -14,7 +14,7 @@ PKG_VERSION:=1.8.0
 PKG_RELEASE:=20240411
 
 define Package/$(PKG_NAME)/conffiles
-/etc/config/advancedplus
+	/etc/config/advancedplus
 endef
 
 include $(TOPDIR)/feeds/luci/luci.mk

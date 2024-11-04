@@ -1,0 +1,495 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:49
+#: luasrc/model/cbi/advancedplus/config-argon.lua:64
+msgid "0 Clear - 10 Blur"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:44
+#: luasrc/model/cbi/advancedplus/config-argon.lua:59
+msgid "0 Transparent - 1 Opaque"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:6
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:14
+msgid "</br>For specific usage, see:"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancededit.lua:8
+msgid ""
+"<font color=\"Red\"><strong>Configuration documents are directly edited "
+"unless you know what you are doing, please do not easily modify these "
+"configuration documents. Incorrect configuration may result in errors such "
+"as inability to power on!</strong></font><br/>"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:39
+#: luasrc/model/cbi/advancedplus/config-argon.lua:54
+msgid "A HEX Color"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:23
+msgid "Accessing using HTTPS"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:41
+msgid "Add Android host name mapping"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:56
+msgid "Administration"
+msgstr ""
+
+#: luasrc/controller/advancedplus.lua:17
+#: luasrc/model/cbi/advancedplus/advancededit.lua:7
+msgid "Advanced Edit"
+msgstr ""
+
+#: luasrc/controller/advancedplus.lua:14
+msgid "Advanced Plus"
+msgstr ""
+
+#: luasrc/controller/advancedplus.lua:18
+#: luasrc/model/cbi/advancedplus/advancedset.lua:4
+msgid "Advanced Setting"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:54
+msgid "Advanced plus"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:35
+msgid "Allow TTYD external network access"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:94
+#: luasrc/model/cbi/advancedplus/upload-login.lua:94
+msgid "Background file list"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:63
+msgid "Backup / Flash"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:27
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:23
+msgid "Bing Wallpaper"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:24
+msgid "Bird 4K Wallpaper"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:105
+msgid "Black Tea Eye Protection Gray"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:36
+msgid "Cancel background glass fence special effects"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:79
+msgid "Care Mode (large font)"
+msgstr ""
+
+#: luasrc/view/advancedplus/other_upload.htm:2
+msgid "Choose local file:"
+msgstr ""
+
+#: luasrc/view/advancedplus/advanced.htm:5
+#: luasrc/view/advancedplus/advanced.htm:75
+msgid "Click to execute"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:83
+msgid "Color Scheme List"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:106
+msgid "Cool Night Time"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:107
+msgid "Cool Ocean Heart"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:48
+#: luasrc/model/cbi/advancedplus/upload-login.lua:48
+msgid "Create upload file error."
+msgstr ""
+
+#: luasrc/controller/advancedplus.lua:26
+msgid "Desktop Background Upload"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:61
+msgid "Disk Man"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancededit.lua:17
+msgid ""
+"Document content, Automatic restart takes effect after saving the "
+"application."
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:15
+msgid "Download bandwidth (Mbit/s)"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:90
+msgid "Enable Color Matching"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:40
+msgid "Enable Daily Word"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:11
+msgid "Enable QOS automatic optimization strategy (testing function)"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:111
+msgid "Enable Wallpaper"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:32
+msgid "Expand Toolbar"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:32
+msgid "Expand or shrink the toolbar"
+msgstr ""
+
+#: luasrc/view/advancedplus/advanced.htm:35
+msgid "Fatal on get option,please help in debug"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:131
+msgid "Fence Background (RGB)"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:135
+msgid "Fence Background Transparency"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:99
+#: luasrc/model/cbi/advancedplus/upload-login.lua:99
+msgid "File name"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:58
+#: luasrc/model/cbi/advancedplus/upload-login.lua:58
+msgid "File saved to"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:32
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:95
+msgid "Follow System"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:34
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:97
+msgid "Force Dark"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:33
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:96
+msgid "Force Light"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:49
+#: luasrc/model/cbi/advancedplus/config-argon.lua:64
+msgid "Frosted Glass Radius"
+msgstr ""
+
+#: root/usr/share/rpcd/acl.d/luci-app-advancedplus.json:3
+msgid "Grant UCI access for luci-app-advancedplus"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:5
+#: luasrc/model/cbi/advancedplus/config-argon.lua:20
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:13
+msgid "Here you can adjust various settings."
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:27
+msgid "Hide Wizard"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:21
+msgid "Iciba Wallpaper"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:28
+msgid ""
+"Is the login wallpaper consistent with the desktop wallpaper? If not "
+"selected, it indicates that the desktop wallpaper and login wallpaper are "
+"set independently."
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:62
+msgid "LED Configuration"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:26
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:20
+msgid "Local Wallpaper"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:19
+msgid ""
+"Local wallpapers need to be uploaded on their own, and only the first update "
+"downloaded on the same day will be automatically downloaded."
+msgstr ""
+
+#: luasrc/controller/advancedplus.lua:25
+msgid "Login Background Upload"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:100
+msgid "Main Background Color (RGB)"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:102
+msgid "Medium Sea Green"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:100
+#: luasrc/model/cbi/advancedplus/upload-login.lua:100
+msgid "Modify time"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:60
+msgid "Mount Points"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:25
+msgid "No backend menu required"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:66
+#: luasrc/model/cbi/advancedplus/upload-login.lua:66
+msgid "No specify upload file."
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:25
+msgid "OPENWRT backend and SSH login do not display shortcut menus"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:24
+#: luasrc/model/cbi/advancedplus/upload-login.lua:24
+msgid "Only JPG, PNG, and GIF files can be uploaded."
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:23
+msgid "Open the address in the background and use HTTPS for secure access"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:45
+msgid "Overview"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:39
+#: luasrc/model/cbi/advancedplus/config-argon.lua:54
+msgid "Primary Color"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:48
+msgid "Processes"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:69
+msgid "Proxy Key Settings"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:11
+msgid "Qos automatic optimization"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:49
+msgid "Realtime Graphs"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:65
+msgid "Reboot"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:102
+#: luasrc/model/cbi/advancedplus/upload-login.lua:102
+msgid "Remove"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:41
+msgid ""
+"Resolve the issue of Android native TV not being able to connect to WiFi for "
+"the first time"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:46
+msgid "Routing"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:101
+msgid "Royal Blue"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:103
+msgid "Sandy Brown"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:69
+msgid "Save Changes"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:64
+msgid "Scheduled Reboot"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:59
+msgid "Scheduled Tasks"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:38
+msgid "Set firewall wan to open"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:27
+msgid "Show or hide the setup wizard menu"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:101
+#: luasrc/model/cbi/advancedplus/upload-login.lua:101
+msgid "Size"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:57
+msgid "Software"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:58
+msgid "Startup"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:44
+msgid "Status key Settings"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:55
+msgid "System"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:47
+msgid "System Log"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:53
+msgid "System key Settings"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:31
+msgid "TSO optimization for network card interruption"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancededit.lua:18
+msgid ""
+"The starting number symbol (#) or each line of the semicolon (;) is "
+"considered a comment, Remove (;) and enable the specified option."
+msgstr ""
+
+#: luasrc/controller/advancedplus.lua:20 luasrc/controller/advancedplus.lua:23
+#: luasrc/model/cbi/advancedplus/config-argon.lua:20
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:12
+msgid "Theme Config"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:31
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:94
+msgid "Theme Mode"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:88
+msgid "Theme Name"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:36
+msgid "Thin Mode"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancededit.lua:17
+msgid "This page is about configuration"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:104
+msgid "Tomato Red"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:44
+#: luasrc/model/cbi/advancedplus/config-argon.lua:59
+msgid "Transparency"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:31
+msgid ""
+"Turn off the TSO parameters of the INTEL225 network card to improve network "
+"interruption"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:22
+msgid "Unsplash Wallpaper"
+msgstr ""
+
+#: luasrc/view/advancedplus/other_upload.htm:4
+msgid "Upload"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:24
+#: luasrc/model/cbi/advancedplus/upload-login.lua:24
+msgid "Upload (Free:"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/advancedset.lua:19
+msgid "Upload bandwidth (Mbit/s)"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/upload-desktop.lua:28
+#: luasrc/model/cbi/advancedplus/upload-login.lua:28
+msgid "Upload file to"
+msgstr ""
+
+#: luasrc/view/advancedplus/advanced.htm:52
+msgid "Waiting,(executing)..."
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:123
+msgid "Wallpaper Blur Radius"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:25
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:19
+msgid "Wallpaper Source"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:28
+msgid "Wallpaper Synchronization"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-kucat.lua:115
+msgid "Wallpaper Transparency"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:37
+msgid "You can choose Theme color mode here"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:54
+#: luasrc/model/cbi/advancedplus/config-argon.lua:59
+#: luasrc/model/cbi/advancedplus/config-argon.lua:64
+msgid "[Dark Mode]"
+msgstr ""
+
+#: luasrc/model/cbi/advancedplus/config-argon.lua:39
+#: luasrc/model/cbi/advancedplus/config-argon.lua:44
+#: luasrc/model/cbi/advancedplus/config-argon.lua:49
+msgid "[Light Mode]"
+msgstr ""
