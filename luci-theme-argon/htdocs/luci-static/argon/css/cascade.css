@@ -514,7 +514,7 @@ h5 {
   -webkit-box-align: center;
   align-items: center;
   margin: 50px auto 100px 50px;
-  color: #525461;
+  color: #4d1919;
   color: var(--default);
   justify-content: center
 }
@@ -563,7 +563,7 @@ h5 {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #525461;
+  color: #4d1919;
   color: var(--default);
   font-size: 1.5rem;
   position: absolute;
@@ -592,7 +592,7 @@ h5 {
   margin: .825rem 0;
   box-sizing: border-box;
   transition: all .3s cubic-bezier(.68, -0.55, .265, 1.55);
-  color: #525461;
+  color: #4d1919;
   color: var(--default);
   border: 0;
   border-radius: 0;
@@ -661,7 +661,7 @@ h5 {
   margin-top: auto;
   padding: 0px 0px 30px;
   z-index: 10;
-  color: #525461;
+  color: #4d1919;
   color: var(--default);
   position: absolute;
   bottom: 0
@@ -4465,11 +4465,11 @@ pre.command-output {
   }
 
   .login-page .login-container .login-form .form-login .input-group::before {
-    color: #525461;
+    color: #4d1919;
   }
 
   .login-page .login-container .login-form .form-login .input-group input {
-    color: #525461;
+    color: #4d1919;
     border-bottom: white 1px solid;
     border-bottom: var(--white) 1px solid;
     border-radius: 0;
