@@ -8,8 +8,8 @@ LUCI_TITLE:=LuCI for CPU Freq Setting
 LUCI_DEPENDS:=+irqbalance +luci-compat @(arm||aarch64)
 
 PKG_NAME:=luci-app-cpufreq
-PKG_VERSION:=1
-PKG_RELEASE:=$(COMMITCOUNT)
+PKG_VERSION:=1.1
+PKG_RELEASE:=1
 
 define Package/$(PKG_NAME)/conffiles
 /etc/config/cpufreq
