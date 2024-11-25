@@ -1,5 +1,5 @@
 fan = Map("cpufreq", translate("PWM Fan Controller"))
-fan.description = translate("PWM Fan speed controller.")
+fan.description = translate("Smart control PWM fan start/stop and fan speed based on CPU temperature.")
 
 s = fan:section(NamedSection, "cpufreq", "settings")
 s.addremove = false
