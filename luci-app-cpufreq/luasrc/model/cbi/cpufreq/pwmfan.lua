@@ -23,5 +23,6 @@ o:value("2", translate("Level 2"))
 o:value("3", translate("Level 3"))
 o:value("4", translate("Level 4"))
 o.default = "35"
+o:depends("pwm_fan_strict", true)
 
 return fan
