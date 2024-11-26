@@ -3,19 +3,16 @@
 START=15
 USE_PROCD=1
 
-NAME="cpufreq"
-CUR_STATE="/sys/devices/virtual/thermal/cooling_device0/cur_state"
-
 config_get_cpufreq() {
-	config_get "$NAME" "$1"
+	config_get "cpufreq" "$1"
 }
 
 start_service() {
-	config_load "$NAME"
+	config_load "cpufreq"
 
 	# Multi-Gen LRU
 	if [ -e /sys/kernel/mm/lru_gen/enabled ]; then
-		if [ "$(config_get_cpufreq "mglru_enabled")" -eq 1 ]; then
+		if [ "$(config_get_cpufreq "mglru_enabled")" = 1 ]; then
 			echo y >/sys/kernel/mm/lru_gen/enabled
 			config_get_cpufreq "mglru_min_ttl_ms" > /sys/kernel/mm/lru_gen/min_ttl_ms
 		else
@@ -23,6 +20,7 @@ start_service() {
 		fi
 	fi
 
+	# cpufreq
 	for i in $(find /sys/devices/system/cpu/cpufreq/policy* -maxdepth 0 | grep -Eo '[0-9]+')
 	do
 		[ -z "$(config_get_cpufreq "governor$i")" ] && return
@@ -37,37 +35,19 @@ start_service() {
 	done
 
 	# pwm-fan
-	[ -z "$(config_get_cpufreq "pwm_fan")" ] && uci -q set cpufreq.cpufreq.pwm_fan='1' && uci_commit=true
-	[ -z "$(config_get_cpufreq "pwm_fan_threshold")" ] && uci -q set cpufreq.cpufreq.pwm_fan_threshold='35' && uci_commit=true
-	[ -z "$(config_get_cpufreq "pwm_fan_strict")" ] && uci -q set cpufreq.cpufreq.pwm_fan_strict='1' && uci_commit=true
-	[ -z "$(config_get_cpufreq "pwm_fan_enforce_level")" ] && uci -q set cpufreq.cpufreq.pwm_fan_enforce_level='auto' && uci_commit=true
-	[ "$uci_commit" = "true" ] && uci -q commit cpufreq
-
-	{
-		sleep 10 && [ ! -d "/var/lock/pwmfan" ] && /etc/init.d/cpufreq start && touch /var/lock/pwmfan
-	} &
-
-	[ "$(config_get_cpufreq "pwm_fan")" != 1 ] && echo 0 > "$CUR_STATE" && return 1
-
-	procd_open_instance pwm-fan
-	procd_set_param command /usr/sbin/rockchip-pwm-fan
-	procd_append_param command -t "$(config_get_cpufreq "pwm_fan_threshold")"
-	[ "$(config_get_cpufreq "pwm_fan_strict")" != 1 ] && procd_append_param command -s
-	[ -n "$(config_get_cpufreq "pwm_fan_enforce_level")" ] && [ "$(config_get_cpufreq "pwm_fan_enforce_level")" != "auto" ] && procd_append_param command -k "$(config_get_cpufreq "pwm_fan_enforce_level")"
-	procd_set_param stdout 0
-	procd_set_param stderr 0
-	procd_set_param respawn
-	procd_close_instance pwm-fan
-}
-
-stop_service() {
-	[ -f "$CUR_STATE" ] && echo 0 > "$CUR_STATE"
-	killall rockchip-pwm-fan >/dev/null 2>&1
-}
-
-reload_service() {
-	stop
-	start
+	if [ "$(config_get_cpufreq "pwm_fan")" = 1 ]; then
+		procd_open_instance pwm-fan
+		procd_set_param command /usr/sbin/rockchip-pwm-fan
+		procd_append_param command -t "$(config_get_cpufreq "pwm_fan_threshold")"
+		[ "$(config_get_cpufreq "pwm_fan_strict")" != 1 ] && procd_append_param command -s
+		[ -n "$(config_get_cpufreq "pwm_fan_enforce_level")" ] && [ "$(config_get_cpufreq "pwm_fan_enforce_level")" != "auto" ] && procd_append_param command -k "$(config_get_cpufreq "pwm_fan_enforce_level")"
+		procd_set_param stdout 0
+		procd_set_param stderr 0
+		procd_set_param respawn
+		procd_close_instance pwm-fan
+	else
+		echo 0 > /sys/devices/virtual/thermal/cooling_device0/cur_state
+	fi
 }
 
 service_triggers() {

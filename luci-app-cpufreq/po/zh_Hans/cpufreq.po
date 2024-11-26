@@ -38,7 +38,7 @@ msgid "PWM Fan Controller"
 msgstr "PWM 风扇控制"
 
 msgid "Smart control PWM fan start/stop and fan speed based on CPU temperature."
-msgstr "基于 CPU 温度智能控制 PWM 风扇启停、转速。"
+msgstr "通过 CPU 温度值智能控制 PWM 风扇启停、转速。"
 
 msgid "Fan temperature activation (°C)"
 msgstr "风扇启停温度 (°C)"
