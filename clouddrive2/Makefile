@@ -6,7 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=CloudDrive2
+PKG_NAME:=cloudDrive2
 PKG_VERSION:=0.8.5
 PKG_RELEASE=1
 
@@ -34,7 +34,7 @@ define Package/clouddrive2
   SECTION:=net
   CATEGORY:=Network
   DEPENDS:=@(arm||aarch64||x86_64) +fuse-utils +fuse3-utils
-  TITLE:=CloudDrive2
+  TITLE:=cloudDrive2
 endef
 
 define Package/clouddrive2/description
