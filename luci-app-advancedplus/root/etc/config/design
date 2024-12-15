@@ -1,4 +1,0 @@
-config global
-	option mode 'normal'
-	option navbar 'close'
-	option navbar_proxy 'homeproxy'
